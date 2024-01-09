@@ -14,9 +14,9 @@ export default defineConfig({
 		]
 	},
 	buildSteps: [
-		{ name: "client" },
+		{ name: 'client' },
 		{
-			name: "server",
+			name: 'server',
 			config: {
 				build: { ssr: true },
 			},
